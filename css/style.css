@@ -1,0 +1,133 @@
+body{
+    background-color: #121214;
+    color: white;
+}
+
+.container{ 
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .titulo{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+}
+
+.container .listaPerfil{
+    max-width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    color: #9C9C9C;
+    align-items: center;
+}
+
+
+.container .listaPerfil .perfil{
+    width: 160px;
+    height: 200px;
+    margin: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #9C9C9C;
+}
+
+.container .listaPerfil .perfil:hover{
+    color: white;
+}
+
+.container .listaPerfil .perfil .box{
+    max-width: 160px;
+    max-height: 160px;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+
+.container .listaPerfil .perfil .box .imgPerfil{
+    border-radius:8px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-size: 160px;
+    background-position: top;
+}
+
+.container .listaPerfil .perfil .box .imgPerfil.aline{
+    background-image: url('../img/perfil1.svg');
+}
+.container .listaPerfil .perfil .box .imgPerfil.pedrinho{
+    background-image: url('../img/perfil2.svg');
+}
+.container .listaPerfil .perfil .box .imgPerfil.julia{
+    background-image: url('../img/perfil3.svg');
+}
+
+.container .listaPerfil .perfil .box .imgPerfil:hover{
+    background-size: 205px;
+    border: 1.5px solid white;
+}
+
+
+.container .listaPerfil .perfil h2{
+    font-size: 14px;
+    cursor: default;
+}
+
+
+.container .listaPerfil .perfil .box .box-simbolo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E20;
+    border-radius: 8px;
+    color: #6F6F70;
+    box-sizing: border-box;
+}
+
+.container .listaPerfil .perfil .box .box-simbolo:hover{
+    color: white;
+    border: 1.5px solid white;
+}
+
+.container .listaPerfil .perfil .box .box-simbolo .simbolo{
+    display: flex;
+    width: 52.5px;
+    height: 52.5px;
+    font-size: 42px; font-weight: bold;
+    border: 5.19px solid;
+    border-radius: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .botaoGerenciar{
+    width: 206px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1.5px solid white;
+    background-color: inherit;
+    color: inherit;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.container .botaoGerenciar:hover{
+background-color: white;
+color: #121214;
+}
